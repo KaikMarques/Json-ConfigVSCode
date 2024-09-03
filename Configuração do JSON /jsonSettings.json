@@ -1,0 +1,359 @@
+{
+    // Habilita a exibição de pares de colchetes correspondentes
+    "editor.guides.bracketPairs": true,
+    
+    // Habilita a importação automática experimental do TabNine
+    "tabnine.experimentalAutoImports": true,
+    
+    // Define a opacidade do efeito de vidro no fundo
+    "glassit.alpha": 245,
+    
+    // Desativa o aviso de obsolescência do Bracket Pair Colorizer 2
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    
+    // Habilita o envio de telemetria para a Red Hat
+    "redhat.telemetry.enabled": true,
+    
+    // Define o caminho para o JDK (Java Development Kit)
+    "jdk.jdkhome": "c:\\Users\\Public\\jdk-21.0.4",
+    
+    // Habilita o fetch automático ao usar o Git
+    "git.autofetch": true,
+    
+    // Habilita o modo de efeitos de energia (Power Mode)
+    "powermode.enabled": true,
+    
+    // Desativa a exibição do contador de combos no efeito de energia (Power Mode)
+    "powermode.combo.counterEnabled": "hide",
+    
+    // Ignora espaços em branco ao comparar arquivos no editor de diferenças
+    "diffEditor.ignoreTrimWhitespace": true,
+    
+    // Habilita o Smart Commit do Git
+    "git.enableSmartCommit": true,
+
+    // Define o editor padrão ao iniciar o VS Code como um novo arquivo sem título
+    "workbench.startupEditor": "newUntitledFile",
+    
+    // Define o tamanho da fonte do editor
+    "editor.fontSize": 15,
+    
+    // Define a altura das linhas do editor
+    "editor.lineHeight": 1.8,
+    
+    // Habilita a sugestão automática de importações para JavaScript
+    "javascript.suggest.autoImports": true,
+    
+    // Atualiza automaticamente as importações ao mover arquivos no JavaScript
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    
+    // Ignora recomendações de extensões
+    "extensions.ignoreRecommendations": true,
+    
+    // Desativa o log do servidor TypeScript (tsserver)
+    "typescript.tsserver.log": "off",
+    
+    // Desativa a rolagem fixa do editor
+    "editor.stickyScroll.enabled": false,
+    
+    // Desativa a rolagem fixa na árvore de arquivos
+    "workbench.tree.enableStickyScroll": false,
+    
+    // Associações de arquivos personalizadas
+    "files.associations": {
+        ".env.*": "dotenv",
+        ".prettierrc": "json",
+        "*.css": "css",
+        ".dev.vars": "dotenv"
+    },
+    
+    // Associações de símbolos (para realce de sintaxe)
+    "symbols.files.associations": {
+        "*.module.ts": "nest",
+        "*.guard.ts": "typescript",
+        "*.spec.ts": "ts-test",
+        "*.e2e-spec.ts": "ts-test",
+        "*.mock.ts": "ts-test",
+        "vitest.config.e2e.ts": "vite",
+        ".env.development.local": "gear",
+        ".env.test.local": "gear",
+        ".env.local": "gear",
+        ".env.example": "gear"
+    },
+    
+    // Expressões regulares para classes do Tailwind CSS
+    "tailwindCSS.experimental.classRegex": [
+        [
+            "tv\\(([^)]*)\\)",
+            "\"'`.*?[\"'`]"
+        ],
+        "class:\\s*?\"'`.*?,"
+    ],
+    
+    // Desativa dicas de parâmetros do editor
+    "editor.parameterHints.enabled": false,
+    
+    // Realça a linha atual no gutter (à esquerda)
+    "editor.renderLineHighlight": "gutter",
+    
+    // Define os idiomas para verificação ortográfica (português e inglês)
+    "cSpell.language": "en,pt",
+    
+    // Sempre atualiza as importações ao mover arquivos no TypeScript
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // Define a primeira sugestão como seleção padrão
+    "editor.suggestSelection": "first",
+    
+    // Desativa a confirmação de exclusão de arquivos/diretórios no explorador
+    "explorer.confirmDelete": false,
+    
+    // Desativa os CodeLens de alterações recentes no GitLens
+    "gitlens.codeLens.recentChange.enabled": false,
+    
+    // Desativa o alerta de saída do terminal
+    "terminal.integrated.showExitAlert": false,
+    
+    // Configurações específicas para o Prisma
+    "[prisma]": {
+        "editor.formatOnSave": true
+    },
+    
+    // Habilita a sugestão automática de importações para TypeScript
+    "typescript.suggest.autoImports": true,
+    
+    // Prefere importações apenas de tipos no TypeScript
+    "typescript.preferences.preferTypeOnlyAutoImports": true,
+    
+    // Configuração de ambiente para o terminal no macOS
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    
+    // Define o formato de rótulos de guias de editor (abas)
+    "workbench.editor.labelFormat": "short",
+    
+    // Configurações para o Emmet (expansão de abreviações)
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    
+    // Ignora arquivos específicos ao verificar ortografia
+    "cSpell.enableFiletypes": [
+        "!asciidoc",
+        "!c",
+        "!cpp",
+        "!csharp",
+        "!go",
+        "!handlebars",
+        "!haskell",
+        "!jade",
+        "!java",
+        "!latex",
+        "!php",
+        "!pug",
+        "!python",
+        "!restructuredtext",
+        "!rust",
+        "!scala",
+        "!scss"
+    ],
+    
+    // Desativa a aceitação automática de sugestões ao digitar caracteres de confirmação
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    
+    // Modifica o estilo de exibição das pastas no explorador
+    "explorer.compactFolders": false,
+    
+    // Desativa o suporte à acessibilidade
+    "editor.accessibilitySupport": "off",
+    
+    // Desativa a confirmação de arrastar e soltar no explorador
+    "explorer.confirmDragAndDrop": false,
+    
+    // Define o tamanho da fonte do terminal
+    "terminal.integrated.fontSize": 14,
+    
+    // Define a família de fontes do terminal
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    
+    // Executa ações de correção de código ao salvar (por exemplo, ESLint)
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    
+    // Validação do ESLint para JavaScript e GraphQL
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "graphql"
+    ],
+    
+    // Habilita o realce semântico no editor
+    "editor.semanticHighlighting.enabled": true,
+    
+    // Desativa a exibição de breadcrumbs (trilha de navegação) no editor
+    "breadcrumbs.enabled": false,
+    
+    // Define o tema de ícones do produto como "fluent-icons"
+    "workbench.productIconTheme": "fluent-icons",
+    
+    // Define a família de fontes do editor
+    "editor.fontFamily": "JetBrains Mono",
+    
+    // Desativa os CodeLens de autores no GitLens
+    "gitlens.codeLens.authors.enabled": false,
+    
+    // Define o tamanho da tabulação (espaços por tabulação)
+    "editor.tabSize": 2,
+    
+    // Define a confiança para arquivos não confiáveis
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    
+    // Exclui arquivos/diretórios específicos do explorador
+    "files.exclude": {
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/.git": true,
+        ".vscode": true
+        // "node_modules": true
+    },
+    
+    // Define o tema de ícones para "symbols"
+    "workbench.iconTheme": "symbols",
+    
+    // Define o modo de atualização como "default"
+    "update.mode": "default",
+    // Habilita a aceleração de GPU no terminal
+    "terminal.integrated.gpuAcceleration": "on",
+    
+    // Define o perfil padrão do terminal no macOS como "fish"
+    "terminal.integrated.defaultProfile.osx": "fish",
+    
+    // Configura o formatador padrão para arquivos JSON
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    
+    // Desativa o Command Center (Centro de Comandos)
+    "window.commandCenter": false,
+    
+    // Abre repositórios Git em pastas pai sempre
+    "git.openRepositoryInParentFolders": "always",
+    
+    // Exibe as setas de expansão no explorador
+    "symbols.hidesExplorerArrows": false,
+    
+    // Configura o formatador padrão para arquivos JavaScript
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    
+    // Define o conjunto de recursos do Console Ninja como "Community"
+    "console-ninja.featureSet": "Community",
+    
+    // Oculta dicas de arquivos vazios no editor
+    "workbench.editor.empty.hint": "hidden",
+    
+    // Desativa a exibição de notas de lançamento
+    "update.showReleaseNotes": false,
+    
+    // Desativa a solicitação de tratamento de protocolo de arquivo local
+    "security.promptForLocalFileProtocolHandling": false,
+    
+    // Define a localização da barra de atividades (activity bar) como "bottom"
+    "workbench.activityBar.location": "bottom",
+    
+    // Configurações específicas para o APC (Advanced Productivity Center)
+    "apc.activityBar": {
+        "position": "bottom",
+        "hideSettings": true,
+        "size": 48,
+        "itemMargin": 8,
+        "itemSize": 32
+    },
+    
+    // Oculta o cursor no minimapa (overview ruler)
+    "editor.hideCursorInOverviewRuler": true,
+    
+    // Habilita o minimapa (overview ruler)
+    "editor.minimap.enabled": true,
+    
+    // Configura o estilo da barra de título do Electron (APC)
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 11,
+            "y": 10
+        },
+        "opacity": 1,
+        "vibrancy": "dark",
+        "frame": false
+    },
+    
+    // Configura a altura do cabeçalho (header) do APC
+    "apc.header": {
+        "height": 36
+    },
+    
+    // Configura a altura das linhas na lista do APC
+    "apc.listRow": {
+        "height": 24
+    },
+    
+    // Define a família de fontes do APC como "Inter"
+    "apc.font.family": "Inter",
+    
+    // Personaliza o estilo de elementos específicos no APC
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".pane-header": "padding: 0 8px",
+        ".pane-body": "padding: 8px",
+        ".split-view-view:first-child .pane-header": "display: none !important;",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    },
+    
+    // Oculta a barra de rolagem vertical no editor
+    "editor.scrollbar.vertical": "hidden",
+    
+    // Define a ordem de classificação no explorador como "pastas primeiro, arquivos depois"
+    "explorer.sortOrder": "foldersNestsFiles",
+    
+    // Define padrões de aninhamento de arquivos no explorador
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+        "tailwind.config.*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+    },
+    
+    // Habilita o aninhamento de arquivos no explorador
+    "explorer.fileNesting.enabled": true,
+    // Oculta a barra de status na parte inferior da janela
+    "workbench.statusBar.visible": false,
+    
+    // Personaliza as regras de cores para tokens no editor
+    "editor.tokenColorCustomizations": {
+        "textMateRules": []
+    },
+    
+    // Desativa o layout de controle do Workbench (não utilizado)
+    "workbench.layoutControl.enabled": false,
+    
+    // Define o tema de cores do Workbench como "Darkanian Default"
+    "workbench.colorTheme": "Darkanian Default",
+    "powermode.combo.counterSize": 0,
+    "powermode.combo.timerEnabled": "hide",
+    "powermode.shake.enabled": false
+
+}
