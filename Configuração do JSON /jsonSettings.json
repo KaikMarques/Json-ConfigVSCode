@@ -7,17 +7,15 @@
     
     // Define a opacidade do efeito de vidro no fundo
     "glassit.alpha": 245,
-    
+
     // Desativa o aviso de obsolescência do Bracket Pair Colorizer 2
     "bracket-pair-colorizer-2.depreciation-notice": false,
     
     // Habilita o envio de telemetria para a Red Hat
     "redhat.telemetry.enabled": true,
     
-    // Define o caminho para o JDK (Java Development Kit)
-    "jdk.jdkhome": "c:\\Users\\Public\\jdk-21.0.4",
-    
     // Habilita o fetch automático ao usar o Git
+    "jdk.jdkhome": "c:\\Users\\Public\\jdk-21.0.4",
     "git.autofetch": true,
     
     // Habilita o modo de efeitos de energia (Power Mode)
@@ -36,10 +34,10 @@
     "workbench.startupEditor": "newUntitledFile",
     
     // Define o tamanho da fonte do editor
-    "editor.fontSize": 15,
+    "editor.fontSize": 17.5,
     
     // Define a altura das linhas do editor
-    "editor.lineHeight": 1.8,
+    "editor.lineHeight": 1.5,
     
     // Habilita a sugestão automática de importações para JavaScript
     "javascript.suggest.autoImports": true,
@@ -125,9 +123,9 @@
     "typescript.preferences.preferTypeOnlyAutoImports": true,
     
     // Configuração de ambiente para o terminal no macOS
-    "terminal.integrated.env.osx": {
-        "FIG_NEW_SESSION": "1"
-    },
+    // "terminal.integrated.env.osx": {
+    //     "FIG_NEW_SESSION": "1"
+    // },
     
     // Define o formato de rótulos de guias de editor (abas)
     "workbench.editor.labelFormat": "short",
@@ -174,10 +172,10 @@
     "explorer.confirmDragAndDrop": false,
     
     // Define o tamanho da fonte do terminal
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 18,
     
     // Define a família de fontes do terminal
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    // "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     
     // Executa ações de correção de código ao salvar (por exemplo, ESLint)
     "editor.codeActionsOnSave": {
@@ -201,7 +199,7 @@
     "workbench.productIconTheme": "fluent-icons",
     
     // Define a família de fontes do editor
-    "editor.fontFamily": "JetBrains Mono",
+    // "editor.fontFamily": "JetBrains Mono",
     
     // Desativa os CodeLens de autores no GitLens
     "gitlens.codeLens.authors.enabled": false,
@@ -351,9 +349,38 @@
     "workbench.layoutControl.enabled": false,
     
     // Define o tema de cores do Workbench como "Darkanian Default"
-    "workbench.colorTheme": "Darkanian Default",
+    // "workbench.colorTheme": "SynthWave '84",
     "powermode.combo.counterSize": 0,
     "powermode.combo.timerEnabled": "hide",
-    "powermode.shake.enabled": false
+    "powermode.shake.enabled": false,
+    
+    // Configurações do CSS and JS Loader
+    // "vscode_custom_css.imports": [
+    //     "file:///C:/Users/kaikm/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/synthwave-x-fluoromachine.css",
+    //     "file:///C:/Users/kaikm/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css"
+    //     ],
+    // "vscode_custom_css.policy": true,
+
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/kaikm/.vscode/extensions/codevars.outrun-meets-synthwave-0.0.1/synthWaveStyles.css"
+        ],
+        "editor.fontLigatures": true,
+        "workbench.tree.indent": 20,
+        "editor.fontFamily": "\"Fira Code\",\"mononoki Nerd Font\", Menlo, Monaco, 'Courier New', monospace",
+        "editor.cursorSmoothCaretAnimation": "on",
+        "editor.cursorBlinking": "expand",
+        "editor.cursorSmothCaretAnimation": true,
+        "editor.fontWeight": "normal",
+        "editor.cursorStyle": "line-thin",
+        "window.zoomLevel": 1,
+        "terminal.external.linuxExec": "iterm",
+        "editor.wordWrap": "on",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "html.suggest.html5": false,
+    "editor.hover.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Outrun Electric Meets Synthwave",
+
+    
 
 }
