@@ -13,13 +13,8 @@
     
     // Habilita o envio de telemetria para a Red Hat
     "redhat.telemetry.enabled": true,
-    
-    // Habilita o fetch automático ao usar o Git
     "jdk.jdkhome": "c:\\Users\\Public\\jdk-21.0.4",
     "git.autofetch": true,
-    
-    // Habilita o modo de efeitos de energia (Power Mode)
-    "powermode.enabled": true,
     
     // Desativa a exibição do contador de combos no efeito de energia (Power Mode)
     "powermode.combo.counterEnabled": "hide",
@@ -225,7 +220,7 @@
     "workbench.iconTheme": "symbols",
     
     // Define o modo de atualização como "default"
-    "update.mode": "default",
+    "update.mode": "manual",
     // Habilita a aceleração de GPU no terminal
     "terminal.integrated.gpuAcceleration": "on",
     
@@ -266,9 +261,6 @@
     // Desativa a solicitação de tratamento de protocolo de arquivo local
     "security.promptForLocalFileProtocolHandling": false,
     
-    // Define a localização da barra de atividades (activity bar) como "bottom"
-    "workbench.activityBar.location": "bottom",
-    
     // Configurações específicas para o APC (Advanced Productivity Center)
     "apc.activityBar": {
         "position": "bottom",
@@ -279,7 +271,7 @@
     },
     
     // Oculta o cursor no minimapa (overview ruler)
-    "editor.hideCursorInOverviewRuler": true,
+    "editor.hideCursorInOverviewRuler": false,
     
     // Habilita o minimapa (overview ruler)
     "editor.minimap.enabled": true,
@@ -322,7 +314,7 @@
     },
     
     // Oculta a barra de rolagem vertical no editor
-    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.vertical": "visible",
     
     // Define a ordem de classificação no explorador como "pastas primeiro, arquivos depois"
     "explorer.sortOrder": "foldersNestsFiles",
@@ -339,11 +331,6 @@
     "explorer.fileNesting.enabled": true,
     // Oculta a barra de status na parte inferior da janela
     "workbench.statusBar.visible": false,
-    
-    // Personaliza as regras de cores para tokens no editor
-    "editor.tokenColorCustomizations": {
-        "textMateRules": []
-    },
     
     // Desativa o layout de controle do Workbench (não utilizado)
     "workbench.layoutControl.enabled": false,
@@ -372,15 +359,47 @@
         "editor.cursorSmothCaretAnimation": true,
         "editor.fontWeight": "normal",
         "editor.cursorStyle": "line-thin",
-        "window.zoomLevel": 1,
         "terminal.external.linuxExec": "iterm",
         "editor.wordWrap": "on",
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "html.suggest.html5": false,
-    "editor.hover.enabled": false,
+    "editor.hover.enabled": true, // desativa a opção de importação da classe Scanner exemplo
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Outrun Electric Meets Synthwave",
+    "workbench.colorTheme": "Synthwave x Fluoromachine & epic animations",
+    "synthwave84.brightness": 0.45,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000",
+    // Cor da barra de rolagem do minimapa com 35% de transparência roxa
+        "minimapSlider.background": "#432e5e59", // Roxo (#432e5e) com 35% de transparência
+        "minimapSlider.hoverBackground": "#432e5e70", // Roxo com 44% de transparência ao passar o mouse
+        "minimapSlider.activeBackground": "#432e5e80", // Roxo com 50% de transparência quando ativa
 
-    
+        // Alterando linha sublinhada de aviso
+        "editorError.foreground": "#F52424", // Cor para erros (pode personalizar o código de cor)
+        "editorWarning.foreground": "#a59d34", // Cor para avisos (alertas)
+        "editorInfo.foreground": "#00FF00" // Cor para informações
+            // Alterando linha sublinhada de aviso
 
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.colorCustomizations"
+    ],
+    "powermode.explosions.size": 5.5,
+
+    // Alterando cor do Comentário
+    "editor.tokenColorCustomizations": {
+        "comments": "#5a5d5c"
+    },
+
+    // Habilita sugestão de importações
+    "java.completion.importOrder": [
+        "java",
+        "javax",
+        "com",
+        "org"
+    ],
+    "[java]": {
+        "editor.defaultFormatter": "Oracle.oracle-java"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
 }
